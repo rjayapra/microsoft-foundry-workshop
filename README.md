@@ -1,10 +1,6 @@
-# Autonomous Agentic Workflows Workshop
+# Microsoft Foundry Workshop
 
-This workshop package is designed for customer delivery and is based on your shared agenda plus the learning path from Logic Apps Labs:
-
-- https://azure.github.io/logicapps-labs/docs/category/build-autonomous-agentic-workflows
-
-The content here is rewritten and expanded into facilitator-ready, step-by-step hands-on material.
+This is a hands-on workshop to practice the Foundry and agents.
 
 ## Workshop Outcomes
 
