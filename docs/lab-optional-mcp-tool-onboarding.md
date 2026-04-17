@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Optional Lab
+title: Optional Lab: MCP Tools
 ---
 
 ## Lab Summary

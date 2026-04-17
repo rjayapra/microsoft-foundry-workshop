@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab 00
+title: "Lab 00: Environment Validation"
 ---
 
 ## Estimated Time

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Post-workshop
+title: Post-Workshop
 ---
 
 ## Recommended Next Steps for Customer Team

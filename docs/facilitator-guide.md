@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Facilitator guide
+title: Facilitator Guide
 ---
 
 ## How to Use This Guide

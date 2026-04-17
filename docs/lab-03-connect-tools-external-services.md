@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab 03
+title: "Lab 03: Build Logic App Consumption Workflow and External Tools"
 ---
 
 ## Lab Summary

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab 04
+title: "Lab 04: Foundry Evaluation and Automation"
 ---
 
 ## Lab Summary

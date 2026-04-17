@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab 05
+title: "Lab 05: End-to-End Scale-Out and Demos"
 ---
 
 ## Lab Summary

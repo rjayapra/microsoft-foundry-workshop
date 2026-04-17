@@ -7,9 +7,9 @@ description: Hands-on workshop to build, debug, and operationalize autonomous ag
 Build, validate, and scale autonomous agentic workflows with Microsoft Foundry and Azure Logic Apps.
 
 <p class="cta-group">
-  <a class="cta-button" href="{{ '/prerequisites.html' | relative_url }}">Prerequisites</a>
-  <a class="cta-button" href="{{ '/agenda.html' | relative_url }}">Agenda</a>
-  <a class="cta-button" href="{{ '/lab-00-environment-validation.html' | relative_url }}">Start Lab 00</a>
+  <a class="cta-button" href="{{ '/prerequisites.html' | relative_url }}" aria-label="Open workshop prerequisites">Prerequisites</a>
+  <a class="cta-button" href="{{ '/agenda.html' | relative_url }}" aria-label="Open workshop agenda">Agenda</a>
+  <a class="cta-button" href="{{ '/lab-00-environment-validation.html' | relative_url }}" aria-label="Start Lab 00 environment validation">Start Lab 00</a>
 </p>
 
 ## Workshop Flow
