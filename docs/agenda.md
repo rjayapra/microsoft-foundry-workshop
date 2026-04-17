@@ -1,4 +1,7 @@
-# Workshop Agenda
+---
+layout: page
+title: Agenda
+---
 
 ## Total Duration
 

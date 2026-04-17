@@ -1,4 +1,7 @@
-# Prerequisites and Setup Checklist
+---
+layout: page
+title: Prerequisites
+---
 
 Use this checklist at least 3 days before delivery.
 

@@ -1,4 +1,7 @@
-# Facilitator Guide
+---
+layout: page
+title: Facilitator Guide
+---
 
 ## How to Use This Guide
 

@@ -1,4 +1,7 @@
-# Lab 02: Debug Agent Reasoning and Tool Execution
+---
+layout: page
+title: "Lab 02: Debug Agent Reasoning and Tool Execution"
+---
 
 ## Lab Summary
 

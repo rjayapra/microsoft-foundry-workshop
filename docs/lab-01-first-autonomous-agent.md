@@ -1,4 +1,7 @@
-# Lab 01: Build an Agent in Microsoft Foundry
+---
+layout: page
+title: "Lab 01: Build an Agent in Microsoft Foundry"
+---
 
 ## Lab Summary
 

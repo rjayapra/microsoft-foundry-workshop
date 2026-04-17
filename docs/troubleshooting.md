@@ -1,4 +1,7 @@
-# Troubleshooting Guide
+---
+layout: page
+title: Troubleshooting
+---
 
 Use this guide during workshop delivery to quickly unblock participants.
 

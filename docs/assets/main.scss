@@ -1,0 +1,43 @@
+---
+---
+@import "minima";
+
+html {
+  font-size: 17px;
+}
+
+body {
+  line-height: 1.7;
+}
+
+.page-content {
+  padding: 2.5rem 0;
+}
+
+h2,
+h3 {
+  margin-top: 1.8rem;
+}
+
+.cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1rem 0 1.75rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.6rem 0.95rem;
+  border-radius: 0.4rem;
+  background: #0b69c7;
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+  background: #0957a4;
+  text-decoration: none;
+}
