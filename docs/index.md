@@ -1,49 +1,48 @@
-# Autonomous Agentic Workflows Workshop
+---
+layout: home
+title: Microsoft Foundry Workshop
+description: Hands-on workshop to build, debug, and operationalize autonomous agentic workflows with Microsoft Foundry and Azure Logic Apps.
+---
 
-This workshop package is designed for customer delivery and is based on your shared agenda plus the learning path from Logic Apps Labs:
+Build, validate, and scale autonomous agentic workflows with Microsoft Foundry and Azure Logic Apps.
 
-- https://azure.github.io/logicapps-labs/docs/category/build-autonomous-agentic-workflows
+<p class="cta-group">
+  <a class="cta-button" href="{{ '/prerequisites.html' | relative_url }}">Prerequisites</a>
+  <a class="cta-button" href="{{ '/agenda.html' | relative_url }}">Agenda</a>
+  <a class="cta-button" href="{{ '/lab-00-environment-validation.html' | relative_url }}">Start Lab 00</a>
+</p>
 
-The content here is rewritten and expanded into facilitator-ready, step-by-step hands-on material.
+## Workshop Flow
 
-## Workshop Outcomes
+1. **Pre-workshop**: Confirm environment, access, and readiness.
+2. **Hands-on labs**: Build an agent, connect tools, debug behavior, and evaluate quality.
+3. **Wrap-up**: Review outcomes, demos, and post-workshop next steps.
 
-By the end of this workshop, participants will be able to:
+### Guided path
 
-1. Build a Microsoft Foundry agent with strong instructions and tool behavior.
-2. Configure model deployment and runtime parameters for reliable reasoning.
-3. Build Logic Apps consumption workflow integration for enterprise actions.
-4. Add and optionally onboard MCP tools with proper descriptions and schemas.
-5. Evaluate agent quality in Foundry using datasets and evaluators.
-6. Run end-to-end flow tests and discuss scale-out design considerations.
+- **Pre-workshop** → [Prerequisites]({{ '/prerequisites.html' | relative_url }})
+- **Labs** → [Lab 00]({{ '/lab-00-environment-validation.html' | relative_url }}) · [Lab 01]({{ '/lab-01-first-autonomous-agent.html' | relative_url }}) · [Lab 02]({{ '/lab-02-debug-autonomous-agent.html' | relative_url }}) · [Lab 03]({{ '/lab-03-connect-tools-external-services.html' | relative_url }}) · [Lab 04]({{ '/lab-04-foundry-evaluation-and-automation.html' | relative_url }}) · [Lab 05]({{ '/lab-05-end-to-end-scaleout-and-demos.html' | relative_url }})
+- **Wrap-up** → [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}) · [Post-workshop]({{ '/post-workshop.html' | relative_url }})
 
 ## Workshop Documents
 
-- [Agenda](agenda.md)
-- [Facilitator Guide](facilitator-guide.md)
-- [Prerequisites](prerequisites.md)
-- [Lab 00: Environment Validation](lab-00-environment-validation.md)
-- [Lab 01: Build First Autonomous Agent](lab-01-first-autonomous-agent.md)
-- [Lab 02: Debug Autonomous Agent](lab-02-debug-autonomous-agent.md)
-- [Lab 03: Connect Tools to External Services](lab-03-connect-tools-external-services.md)
-- [Lab 04: Foundry Evaluation and Automation](lab-04-foundry-evaluation-and-automation.md)
-- [Lab 05: End-to-End Scale-Out and Demos](lab-05-end-to-end-scaleout-and-demos.md)
-- [Optional Lab: MCP Tool Onboarding](lab-optional-mcp-tool-onboarding.md)
-- [Troubleshooting Guide](troubleshooting.md)
-- [Post-Workshop Follow-Up](post-workshop.md)
+### Plan & preparation
 
-## Recommended Delivery Format
+- [Agenda]({{ '/agenda.html' | relative_url }})
+- [Facilitator guide]({{ '/facilitator-guide.html' | relative_url }})
+- [Prerequisites]({{ '/prerequisites.html' | relative_url }})
 
-- Duration: 1 day (09:00 to 16:00, including working lunch)
-- Audience: App integration engineers, architects, and AI workflow builders
-- Skill level: Beginner to intermediate with Azure portal experience
+### Hands-on labs
 
-## Source Attribution
+- [Lab 00: Environment validation]({{ '/lab-00-environment-validation.html' | relative_url }})
+- [Lab 01: First autonomous agent]({{ '/lab-01-first-autonomous-agent.html' | relative_url }})
+- [Lab 02: Debug autonomous agent]({{ '/lab-02-debug-autonomous-agent.html' | relative_url }})
+- [Lab 03: Connect tools and external services]({{ '/lab-03-connect-tools-external-services.html' | relative_url }})
+- [Lab 04: Foundry evaluation and automation]({{ '/lab-04-foundry-evaluation-and-automation.html' | relative_url }})
+- [Lab 05: End-to-end scale-out and demos]({{ '/lab-05-end-to-end-scaleout-and-demos.html' | relative_url }})
+- [Optional lab: MCP tool onboarding]({{ '/lab-optional-mcp-tool-onboarding.html' | relative_url }})
 
-This workshop structure is inspired by Microsoft Logic Apps Labs content:
+### Support & closeout
 
-- Category page: https://azure.github.io/logicapps-labs/docs/category/build-autonomous-agentic-workflows
-- Lab references:
-  - https://azure.github.io/logicapps-labs/docs/logicapps-ai-course/build_autonomous_agents/create-first-autonomous-agent
-  - https://azure.github.io/logicapps-labs/docs/logicapps-ai-course/build_autonomous_agents/debug-agent
-  - https://azure.github.io/logicapps-labs/docs/logicapps-ai-course/build_autonomous_agents/connect-tools-external-services
+- [Troubleshooting]({{ '/troubleshooting.html' | relative_url }})
+- [Post-workshop follow-up]({{ '/post-workshop.html' | relative_url }})

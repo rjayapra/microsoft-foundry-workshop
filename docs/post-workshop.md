@@ -1,4 +1,7 @@
-# Post-Workshop Follow-Up
+---
+layout: page
+title: Post-workshop
+---
 
 ## Recommended Next Steps for Customer Team
 

@@ -1,4 +1,7 @@
-# Optional Lab: MCP Tool Onboarding to Foundry
+---
+layout: page
+title: Optional Lab
+---
 
 ## Lab Summary
 

@@ -1,4 +1,7 @@
-# Lab 05: End-to-End Scale-Out and Demos
+---
+layout: page
+title: Lab 05
+---
 
 ## Lab Summary
 

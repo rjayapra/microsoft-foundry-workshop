@@ -1,4 +1,7 @@
-# Lab 04: Foundry Evaluation and Automation
+---
+layout: page
+title: Lab 04
+---
 
 ## Lab Summary
 

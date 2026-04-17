@@ -1,4 +1,7 @@
-# Lab 00: Environment Validation
+---
+layout: page
+title: Lab 00
+---
 
 ## Estimated Time
 

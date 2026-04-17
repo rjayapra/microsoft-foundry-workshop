@@ -1,20 +1,13 @@
-title: Autonomous Agentic Workflows Workshop
-description: Hands-on workshop materials for building autonomous agentic workflows with Azure Logic Apps.
+title: Microsoft Foundry Workshop
+description: Hands-on workshop materials for building autonomous agentic workflows with Microsoft Foundry and Azure Logic Apps.
 theme: minima
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 header_pages:
-  - agenda.md
-  - facilitator-guide.md
   - prerequisites.md
+  - agenda.md
   - lab-00-environment-validation.md
-  - lab-01-first-autonomous-agent.md
-  - lab-02-debug-autonomous-agent.md
-  - lab-03-connect-tools-external-services.md
-  - lab-04-foundry-evaluation-and-automation.md
-  - lab-05-end-to-end-scaleout-and-demos.md
-  - lab-optional-mcp-tool-onboarding.md
   - troubleshooting.md
   - post-workshop.md
