@@ -1,7 +1,11 @@
 ---
 layout: page
 title: "Lab 01: Build an Agent in Microsoft Foundry"
+nav_order: 1
+lab_id: lab-01
 ---
+
+{% include lab-navigation.html %}
 
 ## Lab Summary
 
@@ -139,3 +143,5 @@ Checkpoint:
 - Instructions drive predictable tool usage.
 - Model and parameter settings are validated.
 - Test prompts show reliable reasoning.
+
+{% include lab-navigation.html %}

@@ -1,7 +1,11 @@
 ---
 layout: page
 title: "Lab 05: End-to-End Scale-Out and Demos"
+nav_order: 5
+lab_id: lab-05
 ---
+
+{% include lab-navigation.html %}
 
 ## Lab Summary
 
@@ -73,3 +77,5 @@ Each participant or team presents:
 - End-to-end flow validated.
 - Scale-out risks identified.
 - Demo walkthrough completed.
+
+{% include lab-navigation.html %}

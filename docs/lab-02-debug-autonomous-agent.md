@@ -1,7 +1,11 @@
 ---
 layout: page
 title: "Lab 02: Debug Agent Reasoning and Tool Execution"
+nav_order: 2
+lab_id: lab-02
 ---
+
+{% include lab-navigation.html %}
 
 ## Lab Summary
 
@@ -120,3 +124,5 @@ Checkpoint:
 - Participant can inspect Foundry and Logic Apps diagnostics.
 - Participant can explain token, reasoning, and execution traces.
 - Participant can classify at least one issue and provide a fix path.
+
+{% include lab-navigation.html %}

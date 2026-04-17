@@ -1,0 +1,48 @@
+{% assign current_index = -1 %}
+{% for lab in site.data.labs %}
+  {% if page.url == lab.url %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% if current_index >= 0 %}
+  {% assign previous_index = current_index | minus: 1 %}
+  {% assign next_index = current_index | plus: 1 %}
+  {% if previous_index >= 0 %}
+    {% assign previous_lab = site.data.labs[previous_index] %}
+  {% endif %}
+  {% assign total_labs = site.data.labs | size %}
+  {% if next_index < total_labs %}
+    {% assign next_lab = site.data.labs[next_index] %}
+  {% endif %}
+
+  <nav class="lab-navigation" aria-label="Lab navigation">
+    <div class="lab-navigation-links">
+      {% if previous_lab %}
+        <a href="{{ previous_lab.url | relative_url }}">← Previous: {{ previous_lab.title }}</a>
+      {% else %}
+        <span class="lab-navigation-disabled">← Previous</span>
+      {% endif %}
+
+      <a href="{{ '/#hands-on-labs' | relative_url }}">All labs</a>
+
+      {% if next_lab %}
+        <a href="{{ next_lab.url | relative_url }}">Next: {{ next_lab.title }} →</a>
+      {% else %}
+        <span class="lab-navigation-disabled">Next →</span>
+      {% endif %}
+    </div>
+
+    <ul class="lab-navigation-list">
+      {% for lab in site.data.labs %}
+        <li>
+          {% if forloop.index0 == current_index %}
+            <strong>{{ lab.title }}</strong>
+          {% else %}
+            <a href="{{ lab.url | relative_url }}">{{ lab.title }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+{% endif %}

@@ -32,7 +32,7 @@ Build, validate, and scale autonomous agentic workflows with Microsoft Foundry a
 - [Facilitator guide]({{ '/facilitator-guide.html' | relative_url }})
 - [Prerequisites]({{ '/prerequisites.html' | relative_url }})
 
-### Hands-on labs
+### Hands-on labs {#hands-on-labs}
 
 - [Lab 00: Environment validation]({{ '/lab-00-environment-validation.html' | relative_url }})
 - [Lab 01: First autonomous agent]({{ '/lab-01-first-autonomous-agent.html' | relative_url }})
