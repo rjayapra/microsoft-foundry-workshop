@@ -6,15 +6,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 header_pages:
-  - agenda.md
-  - facilitator-guide.md
-  - prerequisites.md
-  - lab-00-environment-validation.md
-  - lab-01-first-autonomous-agent.md
-  - lab-02-debug-autonomous-agent.md
-  - lab-03-connect-tools-external-services.md
-  - lab-04-foundry-evaluation-and-automation.md
-  - lab-05-end-to-end-scaleout-and-demos.md
-  - lab-optional-mcp-tool-onboarding.md
-  - troubleshooting.md
-  - post-workshop.md
+  - workshop/agenda.md
+  - workshop/facilitator-guide.md
+  - workshop/prerequisites.md
+  - workshop/labs/lab-00-environment-validation.md
+  - workshop/labs/lab-01-first-autonomous-agent.md
+  - workshop/labs/lab-02-debug-autonomous-agent.md
+  - workshop/labs/lab-03-connect-tools-external-services.md
+  - workshop/labs/lab-04-foundry-evaluation-and-automation.md
+  - workshop/labs/lab-05-end-to-end-scaleout-and-demos.md
+  - workshop/labs/lab-optional-mcp-tool-onboarding.md
+  - workshop/troubleshooting.md
+  - workshop/post-workshop.md

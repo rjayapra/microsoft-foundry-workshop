@@ -19,18 +19,18 @@ By the end of this workshop, participants will be able to:
 
 ## Workshop Documents
 
-- [Agenda](agenda.md)
-- [Facilitator Guide](facilitator-guide.md)
-- [Prerequisites](prerequisites.md)
-- [Lab 00: Environment Validation](lab-00-environment-validation.md)
-- [Lab 01: Build First Autonomous Agent](lab-01-first-autonomous-agent.md)
-- [Lab 02: Debug Autonomous Agent](lab-02-debug-autonomous-agent.md)
-- [Lab 03: Connect Tools to External Services](lab-03-connect-tools-external-services.md)
-- [Lab 04: Foundry Evaluation and Automation](lab-04-foundry-evaluation-and-automation.md)
-- [Lab 05: End-to-End Scale-Out and Demos](lab-05-end-to-end-scaleout-and-demos.md)
-- [Optional Lab: MCP Tool Onboarding](lab-optional-mcp-tool-onboarding.md)
-- [Troubleshooting Guide](troubleshooting.md)
-- [Post-Workshop Follow-Up](post-workshop.md)
+- [Agenda](workshop/agenda.md)
+- [Facilitator Guide](workshop/facilitator-guide.md)
+- [Prerequisites](workshop/prerequisites.md)
+- [Lab 00: Environment Validation](workshop/labs/lab-00-environment-validation.md)
+- [Lab 01: Build Foundry Agent](workshop/labs/lab-01-first-autonomous-agent.md)
+- [Lab 02: Debug Agent Runs](workshop/labs/lab-02-debug-autonomous-agent.md)
+- [Lab 03: Logic App and External Tools](workshop/labs/lab-03-connect-tools-external-services.md)
+- [Lab 04: Evaluation and Automation](workshop/labs/lab-04-foundry-evaluation-and-automation.md)
+- [Lab 05: End-to-End and Demos](workshop/labs/lab-05-end-to-end-scaleout-and-demos.md)
+- [Optional: MCP Tool Onboarding](workshop/labs/lab-optional-mcp-tool-onboarding.md)
+- [Troubleshooting Guide](workshop/troubleshooting.md)
+- [Post-Workshop Follow-Up](workshop/post-workshop.md)
 
 ## Recommended Delivery Format
 
