@@ -1,7 +1,11 @@
 ---
 layout: page
 title: "Lab 00: Environment Validation"
+nav_order: 0
+lab_id: lab-00
 ---
+
+{% include lab-navigation.html %}
 
 ## Estimated Time
 
@@ -81,3 +85,5 @@ Checkpoint:
 
 - All platform and local checks pass.
 - Participant is ready to begin Lab 01.
+
+{% include lab-navigation.html %}

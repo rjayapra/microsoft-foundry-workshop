@@ -1,7 +1,11 @@
 ---
 layout: page
-title: Optional Lab: MCP Tools
+title: "Optional Lab: MCP Tools"
+nav_order: 6
+lab_id: lab-optional
 ---
+
+{% include lab-navigation.html %}
 
 ## Lab Summary
 
@@ -76,3 +80,5 @@ Checkpoint:
 - MCP tool is callable by agent.
 - Schema and descriptions are validated.
 - Team can explain secure rollout path.
+
+{% include lab-navigation.html %}

@@ -1,7 +1,11 @@
 ---
 layout: page
 title: "Lab 04: Foundry Evaluation and Automation"
+nav_order: 4
+lab_id: lab-04
 ---
+
+{% include lab-navigation.html %}
 
 ## Lab Summary
 
@@ -110,3 +114,5 @@ Checkpoint:
 - Evaluation objectives are documented.
 - At least two evaluation runs are compared.
 - Automation approach is documented for customer team.
+
+{% include lab-navigation.html %}

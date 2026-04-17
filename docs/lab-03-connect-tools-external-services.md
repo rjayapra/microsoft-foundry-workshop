@@ -1,7 +1,11 @@
 ---
 layout: page
 title: "Lab 03: Build Logic App Consumption Workflow and External Tools"
+nav_order: 3
+lab_id: lab-03
 ---
+
+{% include lab-navigation.html %}
 
 ## Lab Summary
 
@@ -134,3 +138,5 @@ Checkpoint:
 - At least one connector action is exposed as tool.
 - Participant validates tool call in run history.
 - Participant explains connector authentication and least-privilege strategy.
+
+{% include lab-navigation.html %}
