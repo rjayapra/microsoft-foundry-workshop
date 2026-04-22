@@ -3,6 +3,7 @@ layout: page
 title: "Lab 03: Build Logic App Consumption Workflow and External Tools"
 nav_order: 3
 lab_id: lab-03
+category: beginner
 ---
 
 {% include lab-navigation.html %}

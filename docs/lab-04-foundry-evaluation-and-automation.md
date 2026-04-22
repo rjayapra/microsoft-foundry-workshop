@@ -3,6 +3,7 @@ layout: page
 title: "Lab 04: Foundry Evaluation and Automation"
 nav_order: 4
 lab_id: lab-04
+category: beginner
 ---
 
 {% include lab-navigation.html %}

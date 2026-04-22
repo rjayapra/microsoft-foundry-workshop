@@ -3,6 +3,7 @@ layout: page
 title: "Lab 01: Build an Agent in Microsoft Foundry"
 nav_order: 1
 lab_id: lab-01
+category: beginner
 ---
 
 {% include lab-navigation.html %}

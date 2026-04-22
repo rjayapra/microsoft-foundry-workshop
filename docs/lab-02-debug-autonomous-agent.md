@@ -3,6 +3,7 @@ layout: page
 title: "Lab 02: Debug Agent Reasoning and Tool Execution"
 nav_order: 2
 lab_id: lab-02
+category: beginner
 ---
 
 {% include lab-navigation.html %}

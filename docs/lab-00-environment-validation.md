@@ -3,6 +3,7 @@ layout: page
 title: "Lab 00: Environment Validation"
 nav_order: 0
 lab_id: lab-00
+category: beginner
 ---
 
 {% include lab-navigation.html %}

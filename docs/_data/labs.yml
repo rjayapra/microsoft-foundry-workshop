@@ -1,21 +1,78 @@
+# ── Beginner Labs ──────────────────────────────────────────────────────────────
 - id: lab-00
   title: "Lab 00: Environment Validation"
   url: /lab-00-environment-validation.html
+  category: beginner
+  duration: 25
 - id: lab-01
   title: "Lab 01: Build an Agent in Microsoft Foundry"
   url: /lab-01-first-autonomous-agent.html
+  category: beginner
+  duration: 130
 - id: lab-02
   title: "Lab 02: Debug Agent Reasoning and Tool Execution"
   url: /lab-02-debug-autonomous-agent.html
+  category: beginner
+  duration: 60
 - id: lab-03
-  title: "Lab 03: Build Logic App Consumption Workflow and External Tools"
+  title: "Lab 03: Connect Tools and External Services"
   url: /lab-03-connect-tools-external-services.html
+  category: beginner
+  duration: 90
 - id: lab-04
   title: "Lab 04: Foundry Evaluation and Automation"
   url: /lab-04-foundry-evaluation-and-automation.html
+  category: beginner
+  duration: 60
 - id: lab-05
   title: "Lab 05: End-to-End Scale-Out and Demos"
   url: /lab-05-end-to-end-scaleout-and-demos.html
+  category: beginner
+  duration: 45
 - id: lab-optional
-  title: "Optional Lab: MCP Tools"
+  title: "Optional Lab: MCP Tool Onboarding"
   url: /lab-optional-mcp-tool-onboarding.html
+  category: beginner
+  duration: 30
+
+# ── Advanced Labs ──────────────────────────────────────────────────────────────
+- id: adv-lab-01
+  title: "Advanced Lab 01: Build AI Agents with Portal and VS Code"
+  url: /adv-lab-01-build-agent-portal-vscode.html
+  category: advanced
+  duration: 45
+- id: adv-lab-02
+  title: "Advanced Lab 02: Extend Agents with MCP Tools"
+  url: /adv-lab-02-mcp-integration.html
+  category: advanced
+  duration: 60
+- id: adv-lab-03
+  title: "Advanced Lab 03: Integrate Agent with Foundry IQ"
+  url: /adv-lab-03-foundry-iq.html
+  category: advanced
+  duration: 45
+- id: adv-lab-04
+  title: "Advanced Lab 04: Deploy Agents to Microsoft Teams and Copilot"
+  url: /adv-lab-04-m365-teams.html
+  category: advanced
+  duration: 40
+- id: adv-lab-05
+  title: "Advanced Lab 05: Work IQ — Workplace Intelligence (Optional)"
+  url: /adv-lab-05-work-iq.html
+  category: advanced
+  duration: 40
+- id: adv-lab-06
+  title: "Advanced Lab 06: Build a Workflow in Microsoft Foundry"
+  url: /adv-lab-06-foundry-workflow.html
+  category: advanced
+  duration: 45
+- id: adv-lab-07
+  title: "Advanced Lab 07: Microsoft Agent Framework SDK"
+  url: /adv-lab-07-agent-framework.html
+  category: advanced
+  duration: 30
+- id: adv-lab-08
+  title: "Advanced Lab 08: Multi-Agent Solution with Agent Framework"
+  url: /adv-lab-08-multi-agent-framework.html
+  category: advanced
+  duration: 30

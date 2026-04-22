@@ -3,6 +3,7 @@ layout: page
 title: "Optional Lab: MCP Tools"
 nav_order: 6
 lab_id: lab-optional
+category: beginner
 ---
 
 {% include lab-navigation.html %}

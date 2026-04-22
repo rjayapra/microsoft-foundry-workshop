@@ -9,5 +9,6 @@ header_pages:
   - prerequisites.md
   - agenda.md
   - lab-00-environment-validation.md
+  - adv-lab-01-build-agent-portal-vscode.md
   - troubleshooting.md
   - post-workshop.md

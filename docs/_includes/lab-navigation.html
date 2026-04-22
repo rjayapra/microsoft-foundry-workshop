@@ -1,22 +1,58 @@
+{% comment %}
+  Find current lab entry and its category from labs.yml.
+  Build category-filtered arrays for prev/next navigation within the same skill level.
+{% endcomment %}
+
+{% assign current_lab_entry = nil %}
 {% assign current_index = -1 %}
 {% for lab in site.data.labs %}
   {% if page.url == lab.url %}
+    {% assign current_lab_entry = lab %}
     {% assign current_index = forloop.index0 %}
   {% endif %}
 {% endfor %}
 
-{% if current_index >= 0 %}
-  {% assign previous_index = current_index | minus: 1 %}
-  {% assign next_index = current_index | plus: 1 %}
-  {% if previous_index >= 0 %}
-    {% assign previous_lab = site.data.labs[previous_index] %}
+{% assign current_category = current_lab_entry.category | default: "beginner" %}
+
+{% comment %} Collect only labs in the same category for prev/next {% endcomment %}
+{% assign category_labs = site.data.labs | where: "category", current_category %}
+{% assign cat_current_index = -1 %}
+{% for lab in category_labs %}
+  {% if page.url == lab.url %}
+    {% assign cat_current_index = forloop.index0 %}
   {% endif %}
-  {% assign total_labs = site.data.labs | size %}
-  {% if next_index < total_labs %}
-    {% assign next_lab = site.data.labs[next_index] %}
+{% endfor %}
+
+{% if cat_current_index >= 0 %}
+  {% assign cat_previous_index = cat_current_index | minus: 1 %}
+  {% assign cat_next_index = cat_current_index | plus: 1 %}
+  {% if cat_previous_index >= 0 %}
+    {% assign previous_lab = category_labs[cat_previous_index] %}
+  {% endif %}
+  {% assign cat_total = category_labs | size %}
+  {% if cat_next_index < cat_total %}
+    {% assign next_lab = category_labs[cat_next_index] %}
+  {% endif %}
+{% endif %}
+
+{% if current_index >= 0 %}
+  {% comment %} Category badge styling {% endcomment %}
+  {% if current_category == "advanced" %}
+    {% assign badge_style = "background:#1a6fe6;color:#fff;padding:2px 10px;border-radius:12px;font-size:0.8em;font-weight:600;letter-spacing:0.04em;" %}
+    {% assign badge_label = "🔵 Advanced" %}
+    {% assign home_anchor = "#advanced-labs" %}
+  {% else %}
+    {% assign badge_style = "background:#2aaf6f;color:#fff;padding:2px 10px;border-radius:12px;font-size:0.8em;font-weight:600;letter-spacing:0.04em;" %}
+    {% assign badge_label = "🟢 Beginner" %}
+    {% assign home_anchor = "#beginner-labs" %}
   {% endif %}
 
   <nav class="lab-navigation" aria-label="Lab navigation">
+
+    <p style="margin-bottom:8px;">
+      <span style="{{ badge_style }}">{{ badge_label }}</span>
+    </p>
+
     <div class="lab-navigation-links">
       {% if previous_lab %}
         <a href="{{ previous_lab.url | relative_url }}">← Previous: {{ previous_lab.title }}</a>
@@ -24,7 +60,7 @@
         <span class="lab-navigation-disabled">← Previous</span>
       {% endif %}
 
-      <a href="{{ '/#hands-on-labs' | relative_url }}">All labs</a>
+      <a href="{{ '/' | append: home_anchor | relative_url }}">All {{ current_category }} labs</a>
 
       {% if next_lab %}
         <a href="{{ next_lab.url | relative_url }}">Next: {{ next_lab.title }} →</a>
@@ -33,16 +69,21 @@
       {% endif %}
     </div>
 
-    <ul class="lab-navigation-list">
-      {% for lab in site.data.labs %}
-        <li>
-          {% if forloop.index0 == current_index %}
-            <strong>{{ lab.title }}</strong>
-          {% else %}
-            <a href="{{ lab.url | relative_url }}">{{ lab.title }}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
+    <details style="margin-top:8px;">
+      <summary style="cursor:pointer;font-size:0.9em;color:#555;">All labs in this level ({{ current_category }})</summary>
+      <ul class="lab-navigation-list">
+        {% for lab in category_labs %}
+          <li>
+            {% if page.url == lab.url %}
+              <strong>{{ lab.title }}</strong>
+            {% else %}
+              <a href="{{ lab.url | relative_url }}">{{ lab.title }}</a>
+            {% endif %}
+            {% if lab.duration %}<span style="color:#888;font-size:0.85em;"> — {{ lab.duration }} min</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
   </nav>
 {% endif %}
+

@@ -3,6 +3,7 @@ layout: page
 title: "Lab 05: End-to-End Scale-Out and Demos"
 nav_order: 5
 lab_id: lab-05
+category: beginner
 ---
 
 {% include lab-navigation.html %}
