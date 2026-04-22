@@ -55,7 +55,12 @@ Extend agent capabilities by integrating **Model Context Protocol (MCP)** server
 
 ## Step 4: Connect the agent to a remote MCP server
 
-1. Open the repository in VS Code and navigate to `Labfiles/03-mcp-integration/Python`.
+1. Clone the workshop repository (if you haven't already):
+   ```bash
+   git clone https://github.com/rjayapra/microsoft-foundry-workshop.git
+   cd microsoft-foundry-workshop
+   ```
+   Then navigate to `Labfiles/adv-lab-02-mcp-integration/Python`.
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt

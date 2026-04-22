@@ -39,7 +39,12 @@ You'll build an **Expense Claims Agent** that processes employee expense submiss
 
 ## Step 1: Set up the project
 
-1. Clone the repository and navigate to `Labfiles/07-agent-framework/Python`.
+1. Clone the workshop repository (if you haven't already):
+   ```bash
+   git clone https://github.com/rjayapra/microsoft-foundry-workshop.git
+   cd microsoft-foundry-workshop
+   ```
+   Then navigate to `Labfiles/adv-lab-07-agent-framework/python`.
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt

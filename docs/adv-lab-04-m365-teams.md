@@ -50,7 +50,12 @@ Publish an AI agent to **Microsoft Teams** and **Microsoft 365 Copilot** so empl
 
 ## Step 2: Set up the environment
 
-1. Clone the repository and navigate to `Labfiles/05a-m365-teams-integration/Python`.
+1. Clone the workshop repository (if you haven't already):
+   ```bash
+   git clone https://github.com/rjayapra/microsoft-foundry-workshop.git
+   cd microsoft-foundry-workshop
+   ```
+   Then navigate to `Labfiles/adv-lab-04-m365-teams/Python`.
 2. Run the prerequisite check:
    ```bash
    python check_prerequisites.py

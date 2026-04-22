@@ -82,7 +82,12 @@ Use **Azure AI Foundry** and **Foundry IQ** to build an agent that searches a kn
 
 ## Step 5: Connect from VS Code using the Foundry SDK
 
-1. Clone the repository and navigate to `Labfiles/09-integrate-agent-with-foundry-iq/Python`.
+1. Clone the workshop repository (if you haven't already):
+   ```bash
+   git clone https://github.com/rjayapra/microsoft-foundry-workshop.git
+   cd microsoft-foundry-workshop
+   ```
+   Then navigate to `Labfiles/adv-lab-03-foundry-iq/Python`.
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt

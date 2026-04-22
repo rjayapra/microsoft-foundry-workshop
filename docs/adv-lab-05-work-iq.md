@@ -46,7 +46,12 @@ Work IQ exposes Microsoft 365 data (calendar, email, Teams, tasks, documents) as
 
 ## Step 2: Set up the environment
 
-1. Clone the repository and navigate to `Labfiles/05b-work-iq-integration/Python`.
+1. Clone the workshop repository (if you haven't already):
+   ```bash
+   git clone https://github.com/rjayapra/microsoft-foundry-workshop.git
+   cd microsoft-foundry-workshop
+   ```
+   Then navigate to `Labfiles/adv-lab-05-work-iq/Python`.
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt

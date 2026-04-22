@@ -44,7 +44,12 @@ You'll process customer product feedback through a **three-stage pipeline**:
 
 ## Step 1: Set up the project
 
-1. Clone the repository and navigate to `Labfiles/05-agent-orchestration/Python`.
+1. Clone the workshop repository (if you haven't already):
+   ```bash
+   git clone https://github.com/rjayapra/microsoft-foundry-workshop.git
+   cd microsoft-foundry-workshop
+   ```
+   Then navigate to `Labfiles/adv-lab-08-multi-agent-framework/Python`.
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt

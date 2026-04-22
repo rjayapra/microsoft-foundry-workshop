@@ -119,7 +119,12 @@ The workflow you'll build processes **ContosoPay customer support tickets** thro
 
 ### Step 8: Set up the Python client
 
-1. Clone the repository and navigate to `Labfiles/08-build-workflow-ms-foundry/Python`.
+1. Clone the workshop repository (if you haven't already):
+   ```bash
+   git clone https://github.com/rjayapra/microsoft-foundry-workshop.git
+   cd microsoft-foundry-workshop
+   ```
+   Then navigate to `Labfiles/adv-lab-06-foundry-workflow/Python`.
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt

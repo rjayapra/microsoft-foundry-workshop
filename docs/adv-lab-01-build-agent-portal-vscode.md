@@ -81,8 +81,12 @@ You'll build an **IT Support Agent** that:
 ### Step 4: Open the lab code in VS Code
 
 1. In the Foundry portal, go to **VS Code** (or use the VS Code extension icon in the sidebar and sign in).
-2. Clone or open the repository locally.
-3. Navigate to `Labfiles/01-build-agent-portal-and-vscode/Python`.
+2. Clone the workshop repository:
+   ```bash
+   git clone https://github.com/rjayapra/microsoft-foundry-workshop.git
+   cd microsoft-foundry-workshop
+   ```
+3. Navigate to `Labfiles/adv-lab-01-build-agent-portal-vscode/Python`.
 4. In the terminal, install dependencies:
    ```bash
    pip install -r requirements.txt
