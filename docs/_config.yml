@@ -1,5 +1,5 @@
 title: Microsoft Foundry Workshop
-description: Hands-on workshop materials for building autonomous agentic workflows with Microsoft Foundry and Azure Logic Apps.
+description: Hands-on workshop for building AI agents with Microsoft Foundry. Beginner track uses the portal only — no coding required. Advanced track adds Python and the Foundry SDK.
 theme: minima
 markdown: kramdown
 plugins:

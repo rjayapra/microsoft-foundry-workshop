@@ -1,62 +1,93 @@
 # Microsoft Foundry Workshop
 
-This is a hands-on workshop to practice building autonomous agentic workflows with Microsoft Foundry and Azure AI services. Labs are organised into two skill levels.
+A hands-on workshop for building AI agents with **Microsoft Foundry**. The workshop has two tracks: a **beginner track** that works entirely in the browser (no coding required), and an **advanced track** that introduces programmatic agent development with Python and the Foundry SDK.
+
+---
+
+## Workshop Tracks
+
+### 🟢 Beginner Track — Browser only, no coding required
+
+Perfect for participants who are new to Microsoft Foundry and Azure AI. All steps use the Foundry portal at [https://ai.azure.com](https://ai.azure.com).
+
+**Total time:** ~3 hours  
+**Requirements:** Azure subscription + web browser
+
+| Lab | Topic | Time |
+|---|---|---|
+| [Lab 00](docs/lab-00-environment-validation.md) | Environment Validation | 30 min |
+| [Lab 01](docs/lab-01-first-autonomous-agent.md) | Build Your First AI Agent | 45 min |
+| [Lab 02](docs/lab-02-mcp-tools-portal.md) | Extend Your Agent with MCP Tools | 30 min |
+| [Lab 03](docs/lab-03-foundry-iq-portal.md) | Build a Knowledge Base with Foundry IQ | 45 min |
+| [Lab 04](docs/lab-04-multi-agent-portal.md) | Multi-Agent Orchestration Concepts | 35 min |
+
+### 🔵 Advanced Track — Python + VS Code required
+
+Build on beginner track concepts with programmatic agent development using the Foundry SDK.
+
+**Total time:** ~5 hours  
+**Requirements:** Python 3.12+, VS Code, Microsoft Foundry VS Code extension
+
+| Lab | Topic | Time |
+|---|---|---|
+| [Adv Lab 01](docs/adv-lab-01-build-agent-portal-vscode.md) | Build AI Agents with Portal and VS Code | 45 min |
+| [Adv Lab 02](docs/adv-lab-02-mcp-integration.md) | Extend Agents with MCP Tools (Python) | 60 min |
+| [Adv Lab 03](docs/adv-lab-03-foundry-iq.md) | Integrate Agent with Foundry IQ (Python) | 45 min |
+| [Adv Lab 04](docs/adv-lab-04-m365-teams.md) | Deploy Agents to Microsoft Teams | 40 min |
+| [Adv Lab 05](docs/adv-lab-05-work-iq.md) | Work IQ — Workplace Intelligence (Optional) | 40 min |
+| [Adv Lab 06](docs/adv-lab-06-foundry-workflow.md) | Build a Workflow in Foundry | 45 min |
+| [Adv Lab 07](docs/adv-lab-07-agent-framework.md) | Microsoft Agent Framework SDK | 30 min |
+| [Adv Lab 08](docs/adv-lab-08-multi-agent-framework.md) | Multi-Agent Solution with Agent Framework | 30 min |
+
+---
 
 ## Workshop Outcomes
 
 By the end of this workshop, participants will be able to:
 
-1. Build a Microsoft Foundry agent with strong instructions and tool behaviour.
-2. Configure model deployment and runtime parameters for reliable reasoning.
-3. Build Logic Apps consumption workflow integration for enterprise actions.
-4. Add and optionally onboard MCP tools with proper descriptions and schemas.
-5. Evaluate agent quality in Foundry using datasets and evaluators.
-6. Run end-to-end flow tests and discuss scale-out design considerations.
-7. *(Advanced)* Build agents programmatically using the Microsoft Agent Framework SDK.
-8. *(Advanced)* Integrate agents with Foundry IQ knowledge bases and MCP tool servers.
-9. *(Advanced)* Deploy agents to Microsoft Teams and Microsoft 365 Copilot.
-10. *(Advanced)* Orchestrate multi-agent pipelines with sequential agent handoffs.
+**Beginner track:**
+1. Create and configure AI agents in the Microsoft Foundry portal.
+2. Write clear, effective agent instructions.
+3. Ground agents in documents using File search and Foundry IQ knowledge bases.
+4. Connect agents to live external tools using MCP.
+5. Understand and simulate multi-agent orchestration patterns.
 
-## Workshop Documents
+**Advanced track (in addition to the above):**
+6. Build and run agents programmatically using the Foundry Python SDK.
+7. Create custom MCP servers and expose them to agents.
+8. Interact with Foundry IQ knowledge bases from code.
+9. Deploy agents to Microsoft Teams and Microsoft 365 Copilot.
+10. Implement automated multi-agent pipelines with the Agent Framework SDK.
 
-### Beginner Labs
-> Recommended for participants new to Microsoft Foundry and Azure AI services.
+---
+
+## Planning Documents
 
 - [Agenda](docs/agenda.md)
 - [Facilitator Guide](docs/facilitator-guide.md)
 - [Prerequisites](docs/prerequisites.md)
-- [Lab 00: Environment Validation](docs/lab-00-environment-validation.md)
-- [Lab 01: Build First Autonomous Agent](docs/lab-01-first-autonomous-agent.md)
-- [Lab 02: Debug Autonomous Agent](docs/lab-02-debug-autonomous-agent.md)
-- [Lab 03: Connect Tools to External Services](docs/lab-03-connect-tools-external-services.md)
-- [Lab 04: Foundry Evaluation and Automation](docs/lab-04-foundry-evaluation-and-automation.md)
-- [Lab 05: End-to-End Scale-Out and Demos](docs/lab-05-end-to-end-scaleout-and-demos.md)
-- [Optional Lab: MCP Tool Onboarding](docs/lab-optional-mcp-tool-onboarding.md)
-
-### Advanced Labs
-> Build on Beginner skills. Requires Python 3.12+ and Visual Studio Code.
-
-- [Advanced Lab 01: Build AI Agents with Portal and VS Code](docs/adv-lab-01-build-agent-portal-vscode.md)
-- [Advanced Lab 02: Extend Agents with MCP Tools](docs/adv-lab-02-mcp-integration.md)
-- [Advanced Lab 03: Integrate Agent with Foundry IQ](docs/adv-lab-03-foundry-iq.md)
-- [Advanced Lab 04: Deploy Agents to Microsoft Teams and Copilot](docs/adv-lab-04-m365-teams.md)
-- [Advanced Lab 05: Work IQ — Workplace Intelligence (Optional)](docs/adv-lab-05-work-iq.md)
-- [Advanced Lab 06: Build a Workflow in Microsoft Foundry](docs/adv-lab-06-foundry-workflow.md)
-- [Advanced Lab 07: Microsoft Agent Framework SDK](docs/adv-lab-07-agent-framework.md)
-- [Advanced Lab 08: Multi-Agent Solution with Agent Framework](docs/adv-lab-08-multi-agent-framework.md)
-
-### Support
 - [Troubleshooting Guide](docs/troubleshooting.md)
 - [Post-Workshop Follow-Up](docs/post-workshop.md)
+
+---
 
 ## Recommended Delivery Format
 
 | Format | Details |
-|--------|---------|
-| Duration | 1–2 days (Beginner: 1 day · Advanced: +1 day) |
-| Audience | App integration engineers, architects, AI workflow builders |
-| Skill level — Beginner | Basic Azure portal experience |
-| Skill level — Advanced | Familiarity with Python and Azure AI services |
+|---|---|
+| Duration | Half-day (beginner track only) or full-day (both tracks) |
+| Audience | Anyone new to Microsoft Foundry / AI agents |
+| Skill level — Beginner | Azure portal access, no coding |
+| Skill level — Advanced | Python experience + Azure AI familiarity |
+
+---
+
+## Lab Files
+
+Sample data files used in the labs are in the `Labfiles/` folder:
+
+- `Labfiles/adv-lab-01-build-agent-portal-vscode/` — IT_Policy.txt and system_performance.csv (used in Beginner Lab 01 and Adv Lab 01)
+- `Labfiles/adv-lab-03-foundry-iq/data/` — Contoso product markdown files (used in Beginner Lab 03 and Adv Lab 03)
 
 ## Source Attribution
 

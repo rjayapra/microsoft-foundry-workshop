@@ -5,51 +5,101 @@ title: Agenda
 
 ## Total Duration
 
-- 09:00 to 16:00
+09:00 to 16:00 (full-day workshop)
 
-## Session Plan
+---
 
-1. 09:00 to 09:10 - Workshop overview and technical focus areas
-2. 09:10 to 09:35 - Environment setup and validation
-3. 09:35 to 11:45 - Hands-on: Build an agent in Microsoft Foundry
-4. 11:45 to 13:00 - Working lunch: Build Logic App consumption flow and optional MCP onboarding
-5. 13:05 to 15:30 - Hands-on continued: End-to-end integration, evaluations, automation, scale-out considerations
-6. 15:35 to 16:00 - Participant demos and workshop close
+## Session Plan Overview
 
-## Agenda Details
+| Time | Session | Track |
+|---|---|---|
+| 09:00 – 09:15 | Workshop overview and introductions | All |
+| 09:15 – 09:45 | Environment validation | All (Lab 00) |
+| 09:45 – 10:30 | Build your first AI agent | Beginner (Lab 01) / Advanced (Adv 01 Part 1) |
+| 10:30 – 10:45 | Break | — |
+| 10:45 – 11:15 | Extend with MCP tools | Beginner (Lab 02) / Advanced (Adv 02) |
+| 11:15 – 12:00 | Build a knowledge base with Foundry IQ | Beginner (Lab 03) / Advanced (Adv 03) |
+| 12:00 – 13:00 | Lunch break | — |
+| 13:00 – 13:35 | Multi-agent orchestration concepts | Beginner (Lab 04) / Advanced (Adv 08) |
+| 13:35 – 15:00 | Advanced track continued | Advanced (Adv 04–07) |
+| 15:00 – 15:30 | Participant demos and Q&A | All |
+| 15:30 – 16:00 | Debrief, next steps, and close | All |
 
-### 1. Workshop Overview and Focus Areas (09:00 to 09:10)
+---
 
-- Explain Foundry agent + Logic Apps orchestration architecture.
-- Define workshop goals, success criteria, and deliverables.
+## Session Details
 
-### 2. Environment Setup and Validation (09:10 to 09:35)
+### 1. Workshop Overview and Introductions (09:00 – 09:15)
 
-- Validate access to Microsoft Foundry, Azure AI Search, and Logic Apps.
-- Confirm contributor permissions and local setup.
-- Validate model deployment and test workspace connectivity.
+- Introduce Microsoft Foundry and Azure AI agent architecture.
+- Explain the two-track workshop structure: beginner (portal only) and advanced (portal + Python).
+- Confirm which track each participant is following.
+- Set goals and success criteria.
 
-### 3. Build Agent in Foundry (09:35 to 11:45)
+### 2. Environment Validation — Lab 00 (09:15 – 09:45)
 
-- Create a new Foundry agent.
-- Design instructions for tool usage.
-- Configure model deployment and runtime parameters.
-- Test agent reasoning and prompt behavior.
+**All participants follow Lab 00.**
 
-### 4. Working Lunch Build Session (11:45 to 13:00)
+- Sign in to Azure portal and confirm subscription access.
+- Create or open a Microsoft Foundry project.
+- Deploy a GPT-4o or GPT-4.1 model.
+- Run a test message in the agent playground.
+- Confirm Azure AI Search awareness.
 
-- Build Logic App consumption workflow with trigger and enterprise action.
-- Optional: Build MCP tool and onboard to Foundry.
-- Add tool descriptions and schemas following best practices.
+**Beginner participants:** No local tools needed. Browser only.
+**Advanced participants:** Also confirm Python, VS Code, and the Foundry extension are installed.
 
-### 5. End-to-End Integration and Evaluation (13:05 to 15:30)
+### 3. Build Your First AI Agent (09:45 – 10:30)
 
-- Test end-to-end flow with Logic App + Foundry agent + Foundry workflow.
-- Define evaluation objectives, evaluators, and test dataset.
-- Configure and automate evaluation runs in Foundry.
-- Review scale-out and reliability considerations for production.
+**Beginner:** Lab 01 — portal only.
+- Create IT Support Agent with instructions.
+- Add File search tool with IT_Policy.txt.
+- Add Code interpreter with system_performance.csv.
+- Test in playground.
 
-### 6. Participant Demos and Closing (15:35 to 16:00)
+**Advanced:** Adv Lab 01 Part 1 (portal) then Part 2 (VS Code + Python).
 
-- Participants demonstrate completed flow.
-- Recap lessons learned, risks, and next steps.
+### 4. Break (10:30 – 10:45)
+
+### 5. Extend with MCP Tools (10:45 – 11:15)
+
+**Beginner:** Lab 02 — connect to the Microsoft Learn Docs MCP server in the portal and test live documentation search.
+
+**Advanced:** Adv Lab 02 — connect to the remote MCP server via Python *and* build a custom local MCP server.
+
+### 6. Build a Knowledge Base with Foundry IQ (11:15 – 12:00)
+
+**Beginner:** Lab 03 — create an Azure AI Search resource, build a Foundry IQ knowledge base from Contoso product docs, create a product agent, and test.
+
+**Advanced:** Adv Lab 03 — same knowledge base, then interact programmatically using the Foundry SDK from VS Code.
+
+### 7. Lunch Break (12:00 – 13:00)
+
+### 8. Multi-Agent Orchestration (13:00 – 13:35)
+
+**Beginner:** Lab 04 — create three specialised agents (Summariser, Classifier, Action Recommender) and simulate the pipeline manually in the playground. Understand *why* specialised agents outperform a single general-purpose agent.
+
+**Advanced:** Adv Lab 08 — automate the same multi-agent pipeline using the Microsoft Agent Framework SDK and Python.
+
+### 9. Advanced Track Continued (13:35 – 15:00)
+
+**Advanced participants only** — continue with remaining advanced labs based on interest and time:
+- Adv Lab 04: Deploy agent to Microsoft Teams
+- Adv Lab 05: Work IQ (optional)
+- Adv Lab 06: Build a workflow in Foundry
+- Adv Lab 07: Agent Framework SDK
+
+**Beginner participants:** Use this time to deepen understanding, retry labs, or start the advanced track.
+
+### 10. Participant Demos and Q&A (15:00 – 15:30)
+
+- Each participant (or pair) demonstrates one agent or workflow they built.
+- Facilitator highlights interesting approaches and asks discussion questions.
+- Address any remaining questions.
+
+### 11. Debrief, Next Steps, and Close (15:30 – 16:00)
+
+- Recap what was covered: agents, MCP tools, knowledge bases, multi-agent patterns.
+- Share the [Post-Workshop resources]({{ '/post-workshop.html' | relative_url }}).
+- Collect feedback.
+- Point participants to the advanced labs if they want to continue learning.

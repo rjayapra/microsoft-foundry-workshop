@@ -5,64 +5,87 @@ title: Prerequisites
 
 Use this checklist at least 3 days before delivery.
 
-## Participant Prerequisites
+---
 
-1. Active Azure subscription with permission to create and edit resources.
-2. Microsoft Foundry project access.
-3. Azure AI Search access.
-4. Azure Logic Apps access.
-5. Contributor access in the target subscription or resource group.
-6. Browser access to Azure portal.
-7. GitHub account.
+## Beginner Track Prerequisites
 
-## Facilitator Prerequisites
+The beginner track runs **entirely in a web browser**. No local tools are required.
 
-1. Validate all labs end to end in a clean subscription.
-2. Prepare a backup demo environment in case participant provisioning fails.
-3. Ensure no tenant policy blocks connector connection creation.
-4. Pre-stage sample prompts and test payloads.
-5. Have a fallback tool path using built-in HTTP if managed connectors are blocked.
+### What every beginner participant needs
+
+1. **Active Azure subscription** with at least **Contributor** access to a resource group.
+2. **Browser** — Microsoft Edge or Google Chrome recommended.
+3. Access to [https://portal.azure.com](https://portal.azure.com) (not blocked by corporate proxy or firewall).
+4. Access to [https://ai.azure.com](https://ai.azure.com) (Microsoft Foundry portal — not blocked).
+5. Sufficient **quota** in the selected Azure region to deploy a GPT-4o or GPT-4.1 model. Confirm before the workshop day.
+
+### What the facilitator should pre-provision for beginners
+
+- If participants **cannot create Azure subscriptions themselves**, pre-create a Foundry project for each participant and share connection details.
+- Confirm the target Azure region has available quota for **Standard** or **Global Standard** model deployments.
+- Have a backup region ready (for example, if East US 2 is full, use Sweden Central).
+- Download and stage the lab files so participants can easily access them:
+  - `IT_Policy.txt`
+  - `system_performance.csv`
+  - `contoso-products.zip` (product markdown files)
+
+---
+
+## Advanced Track Prerequisites
+
+The advanced track requires local development tools in addition to the beginner prerequisites.
+
+### What every advanced participant needs
+
+1. Everything in the beginner prerequisites (above).
+2. **Python 3.12 or later** installed ([https://www.python.org/downloads](https://www.python.org/downloads)).
+3. **Visual Studio Code** installed ([https://code.visualstudio.com](https://code.visualstudio.com)).
+4. **Microsoft Foundry VS Code extension** (v0.16.0 or later) — install from the VS Code Extensions marketplace.
+5. **Git** installed ([https://git-scm.com](https://git-scm.com)).
+6. Access to clone: `https://github.com/rjayapra/microsoft-foundry-workshop`
+
+### Pre-workshop validation for advanced track
+
+Run the following in a terminal to confirm local tooling:
+
+```bash
+python --version    # must be 3.12 or later
+code --version
+git --version
+```
+
+---
 
 ## Azure Resource Checklist
 
-- Resource Group created.
-- Foundry project created and accessible.
-- Model endpoint and deployment name confirmed.
-- Logic Apps workflow app deployed and healthy.
-- Storage account linked to Logic Apps Standard.
-- Azure AI Search service deployed and accessible.
-- Connection references for connectors and tools planned.
+Facilitators: confirm these resources exist **before workshop day**.
+
+| Resource | Beginner track | Advanced track |
+|---|---|---|
+| Azure subscription (Contributor access) | Required | Required |
+| Resource group | Required | Required |
+| Microsoft Foundry project | Required | Required |
+| GPT-4o or GPT-4.1 model deployment | Required | Required |
+| Azure AI Search service | Required (Lab 03) | Required (Adv Lab 03) |
+| Python 3.12+ | Not required | Required |
+| VS Code + Foundry extension | Not required | Required |
+
+---
 
 ## Cost and Quota Notes
 
-- Agent runs consume model tokens.
-- Connector usage can incur costs depending on plan and connector tier.
-- Validate regional model availability before workshop day.
+- Agent runs consume model tokens. Estimate ~500–2000 tokens per test interaction.
+- Azure AI Search Basic tier is sufficient for the workshop and costs under $1/day.
+- All beginner labs can be completed with a single gpt-4o Standard deployment.
+- Validate regional model availability using the [Azure AI model quota page](https://ai.azure.com) before workshop day.
 
-## Pre-Workshop Validation Steps
+---
 
-1. Open Azure portal.
-2. Go to your Logic Apps Standard resource.
-3. Verify Workflows blade loads successfully.
-4. Verify you can create an Autonomous Agents workflow kind.
-5. Verify model connection can be created from agent loop.
-6. Run a simple test call and confirm run history appears.
+## Facilitator Preparation Checklist
 
-## Optional Local Tools
-
-These are required for this workshop runbook.
-
-- Python 3.10+
-- VS Code
-- PowerShell 7+ or curl
-
-## Sample Test Request Payload
-
-Use this payload when invoking the HTTP trigger:
-
-```json
-{
-  "userRequest": "Summarize severe weather alerts in Washington and send email updates",
-  "outputMode": "email"
-}
-```
+1. Validate all labs end to end in a clean subscription.
+2. Prepare a backup demo environment (second Foundry project in a different region).
+3. Download and test all lab files work for upload in the Foundry portal.
+4. Confirm no tenant policies block file uploads or MCP server connections.
+5. Have model deployment names and connection strings ready for participants who fall behind.
+6. Stage the lab files at an easily shareable URL if participants cannot clone the repo.
