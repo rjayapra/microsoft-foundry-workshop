@@ -131,7 +131,7 @@ The workflow you'll build processes **ContosoPay customer support tickets** thro
    ```
 3. Create a `.env` file:
    ```
-   PROJECT_CONNECTION_STRING=<your-connection-string>
+   PROJECT_ENDPOINT=<your-project-endpoint>
    WORKFLOW_NAME=support-ticket-workflow
    ```
 

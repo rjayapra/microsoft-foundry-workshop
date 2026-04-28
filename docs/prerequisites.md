@@ -17,7 +17,7 @@ The beginner track runs **entirely in a web browser**. No local tools are requir
 2. **Browser** — Microsoft Edge or Google Chrome recommended.
 3. Access to [https://portal.azure.com](https://portal.azure.com) (not blocked by corporate proxy or firewall).
 4. Access to [https://ai.azure.com](https://ai.azure.com) (Microsoft Foundry portal — not blocked).
-5. Sufficient **quota** in the selected Azure region to deploy a GPT-4o or GPT-4.1 model. Confirm before the workshop day.
+5. Sufficient **quota** in the selected Azure region to deploy a **gpt-5.1** model. Confirm before the workshop day.
 
 ### What the facilitator should pre-provision for beginners
 
@@ -65,7 +65,7 @@ Facilitators: confirm these resources exist **before workshop day**.
 | Azure subscription (Contributor access) | Required | Required |
 | Resource group | Required | Required |
 | Microsoft Foundry project | Required | Required |
-| GPT-4o or GPT-4.1 model deployment | Required | Required |
+| gpt-5.1 model deployment | Required | Required |
 | Azure AI Search service | Required (Lab 03) | Required (Adv Lab 03) |
 | Python 3.12+ | Not required | Required |
 | VS Code + Foundry extension | Not required | Required |
@@ -76,7 +76,7 @@ Facilitators: confirm these resources exist **before workshop day**.
 
 - Agent runs consume model tokens. Estimate ~500–2000 tokens per test interaction.
 - Azure AI Search Basic tier is sufficient for the workshop and costs under $1/day.
-- All beginner labs can be completed with a single gpt-4o Standard deployment.
+- All beginner labs can be completed with a single gpt-5.1 Standard deployment.
 - Validate regional model availability using the [Azure AI model quota page](https://ai.azure.com) before workshop day.
 
 ---

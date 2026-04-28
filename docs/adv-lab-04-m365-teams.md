@@ -66,7 +66,7 @@ Publish an AI agent to **Microsoft Teams** and **Microsoft 365 Copilot** so empl
    ```
 4. Create a `.env` file with your Foundry project and M365 credentials:
    ```
-   PROJECT_CONNECTION_STRING=<your-connection-string>
+   PROJECT_ENDPOINT=<your-project-endpoint>
    AGENT_ID=<your-agent-id>
    TENANT_ID=<your-m365-tenant-id>
    CLIENT_ID=<app-registration-client-id>

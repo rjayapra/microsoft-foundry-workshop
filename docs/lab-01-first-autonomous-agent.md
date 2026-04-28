@@ -63,7 +63,7 @@ You need two sample files for this lab. Download them now:
 2. Select **+ Create agent**.
 3. On the agent creation page:
    - **Agent name**: `it-support-agent`
-   - **Model**: select the model deployment you confirmed in Lab 00 (for example, `gpt-4o`)
+   - **Model**: select the model deployment you confirmed in Lab 00 (for example, `gpt-5.1`)
 4. Select **Create**.
 5. You are taken to the **Agent playground** — this is where you will configure and test the agent.
 

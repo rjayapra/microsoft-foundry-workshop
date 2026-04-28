@@ -56,8 +56,8 @@ You'll process customer product feedback through a **three-stage pipeline**:
    ```
 3. Create a `.env` file:
    ```
-   PROJECT_CONNECTION_STRING=<your-connection-string>
-   MODEL_DEPLOYMENT_NAME=gpt-4o
+   PROJECT_ENDPOINT=<your-project-endpoint>
+   MODEL_DEPLOYMENT_NAME=gpt-5.1
    ```
 
 ## Step 2: Understand the pipeline structure

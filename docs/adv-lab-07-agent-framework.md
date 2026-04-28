@@ -49,15 +49,15 @@ You'll build an **Expense Claims Agent** that processes employee expense submiss
    ```bash
    pip install -r requirements.txt
    ```
-3. Create a `.env` file with your project connection string:
+3. Create a `.env` file with your project endpoint:
    ```
-   PROJECT_CONNECTION_STRING=<your-connection-string>
-   MODEL_DEPLOYMENT_NAME=gpt-4o
+   PROJECT_ENDPOINT=<your-project-endpoint>
+   MODEL_DEPLOYMENT_NAME=gpt-5.1
    ```
 
 ## Step 2: Review the SDK architecture
 
-Open `agent_framework.py` and examine the key components:
+Open `agent-framework.py` and examine the key components:
 
 | Component | Purpose |
 |-----------|---------|
@@ -106,7 +106,7 @@ The function is registered using `FunctionTool` so the agent can invoke it auton
    ```
 2. Run the agent:
    ```bash
-   python agent_framework.py
+   python agent-framework.py
    ```
 3. At the prompt, try:
    - *"I need to submit an expense for a team lunch costing $87.50."*

@@ -32,7 +32,7 @@ This guide helps you run the two-track workshop smoothly with clear pacing, chec
 
 ## Required Facilitator Assets
 
-1. One **ready-to-run Foundry project** with a healthy GPT-4o deployment to use for live demos.
+1. One **ready-to-run Foundry project** with a healthy GPT-5.1 deployment to use for live demos.
 2. One **backup model deployment** in a second region in case quota runs out.
 3. Lab files pre-downloaded and staged:
    - `IT_Policy.txt` and `system_performance.csv` for Lab 01 / Adv Lab 01

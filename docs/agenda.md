@@ -42,7 +42,7 @@ title: Agenda
 
 - Sign in to Azure portal and confirm subscription access.
 - Create or open a Microsoft Foundry project.
-- Deploy a GPT-4o or GPT-4.1 model.
+- Deploy a GPT-5.1 model.
 - Run a test message in the agent playground.
 - Confirm Azure AI Search awareness.
 

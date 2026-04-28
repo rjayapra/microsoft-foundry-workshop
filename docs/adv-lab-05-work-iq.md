@@ -58,7 +58,7 @@ Work IQ exposes Microsoft 365 data (calendar, email, Teams, tasks, documents) as
    ```
 3. Create a `.env` file with your Foundry project and M365 credentials:
    ```
-   PROJECT_CONNECTION_STRING=<your-connection-string>
+   PROJECT_ENDPOINT=<your-project-endpoint>
    TENANT_ID=<your-m365-tenant-id>
    CLIENT_ID=<app-registration-client-id>
    CLIENT_SECRET=<app-registration-client-secret>

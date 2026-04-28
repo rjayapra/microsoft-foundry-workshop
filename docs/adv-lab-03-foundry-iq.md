@@ -94,8 +94,8 @@ Use **Azure AI Foundry** and **Foundry IQ** to build an agent that searches a kn
    ```
 3. Create a `.env` file with values from **Project → Settings**:
    ```
-   PROJECT_CONNECTION_STRING=<your-connection-string>
-   AGENT_ID=<your-agent-id>
+   PROJECT_ENDPOINT=<your-project-endpoint>
+   AGENT_NAME=<your-agent-name>
    ```
 4. Review `agent.py` — note how the SDK creates a thread, submits a message, and polls for the result.
 5. Run the script:

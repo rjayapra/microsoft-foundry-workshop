@@ -68,10 +68,10 @@ Agents need a language model to reason and respond. You will deploy one now.
 
 1. In the left navigation, select **Models** (or **Model deployments**).
 2. Select **+ Deploy model**.
-3. In the model catalog, search for **gpt-4o** (or **gpt-4.1** if available).
+3. In the model catalog, search for **gpt-5.1** (or any available GPT-5.x model).
 4. Select the model and click **Deploy**.
 5. On the deployment configuration screen:
-   - **Deployment name**: `gpt-4o` (or keep the default)
+   - **Deployment name**: `gpt-5.1` (or keep the default)
    - **Deployment type**: Standard or Global Standard
    - Leave other settings at their defaults
 6. Select **Deploy** and wait until the deployment status shows **Succeeded**.

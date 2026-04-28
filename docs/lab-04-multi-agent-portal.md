@@ -57,7 +57,7 @@ Raw customer feedback
 3. Select **+ Create agent**.
 4. Set:
    - **Agent name**: `summariser-agent`
-   - **Model**: your deployed model (for example, `gpt-4o`)
+   - **Model**: your deployed model (for example, `gpt-5.1`)
 5. Select **Create**.
 6. In the **Instructions** field, enter:
 

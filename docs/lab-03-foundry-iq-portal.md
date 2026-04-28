@@ -131,7 +131,7 @@ Now create a Foundry IQ knowledge base and upload the product documents.
 2. Select **+ Create agent**.
 3. Set:
    - **Agent name**: `contoso-product-agent`
-   - **Model**: select your deployed model (for example, `gpt-4o`)
+   - **Model**: select your deployed model (for example, `gpt-5.1`)
 4. Select **Create**.
 5. On the agent playground, enter the following in the **Instructions** field:
 

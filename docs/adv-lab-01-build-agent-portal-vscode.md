@@ -93,8 +93,8 @@ You'll build an **IT Support Agent** that:
    ```
 5. Create a `.env` file and set the following values from **Project → Settings** in the Foundry portal:
    ```
-   PROJECT_CONNECTION_STRING=<your-connection-string>
-   AGENT_ID=<your-agent-id>
+   PROJECT_ENDPOINT=<your-project-endpoint>
+   AGENT_NAME=<your-agent-name>
    ```
 
 ### Step 5: Run the agent client

@@ -49,7 +49,7 @@ Extend agent capabilities by integrating **Model Context Protocol (MCP)** server
 ## Step 3: Deploy a model
 
 1. When the "Project deployed successfully" popup appears, select **Deploy a model**.
-2. In the Model Catalog, locate **gpt-4.1** (or gpt-4o) and select **Deploy**.
+2. In the Model Catalog, locate **gpt-5.1** and select **Deploy**.
 3. Use *Global Standard* or *Standard* deployment type and accept default settings.
 4. Wait for the model to deploy and appear under **Models** in the sidebar.
 
@@ -71,7 +71,7 @@ Extend agent capabilities by integrating **Model Context Protocol (MCP)** server
    ```
 4. Create a `.env` file with your Foundry project connection string:
    ```
-   PROJECT_CONNECTION_STRING=<your-connection-string>
+   PROJECT_ENDPOINT=<your-project-endpoint>
    ```
 5. Run the agent:
    ```bash
